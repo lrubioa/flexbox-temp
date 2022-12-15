@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Template 3</title>
+
+    <style>
+        *{
+            background-color: midnightblue;
+        }
+
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .info{
+            padding-left: 30%;
+            color: midnightblue;
+        }
+
+        .images{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+        }
+
+        .images > .div1{
+            padding: 135px;
+            padding-top: 500px;
+            margin: 10px;
+            background-image: url(violet-porter.png);
+            color: transparent;
+
+        }
+
+        
+        .images > .div2{
+            padding: 135px;
+            padding-top: 500px;
+            margin: 10px;
+            background-image: url(lily-dean.png);
+            color: transparent;
+
+        }
+        
+        .images > .div3{
+            padding: 135px;
+            padding-top: 500px;
+            margin: 10px;
+            background-image: url(woman.png);
+            color: transparent;
+
+        }
+
+
+        .p1{
+            color: white;
+            margin-left: 37%;
+            margin-top: -5px;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .p2{
+            color: white;
+            margin-left: 59%;
+            margin-top: -70px;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .p3{
+            color: white;
+            margin-left: 83%;
+            margin-top: -71px;
+            font-family: 'Lato', sans-serif;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Lato:wght@400;700&family=Raleway&display=swap');
+
+        
+        h1{
+            color: white;
+            font-family: 'Lato', sans-serif;
+            margin-top: -500px;
+            margin-left: 5%;
+            font-size: 300%;
+        }
+
+        .p4{
+            color: white;
+            margin-left: 5%;
+            font-family: 'Lato', sans-serif;
+
+        }
+
+        @media screen and (max-width: 412) {
+            .flex-container{
+                width: fit-content;
+                background-color: cornflowerblue;
+                display: flex;
+                flex-direction: column;
+                color: white;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="info">gg</div>
+    <div class="images">
+        <div class="div1">image 1</div>
+        <div class="div2">image 2</div>
+        <div class="div3">image 3</div>
+    </div>
+    </div>
+
+    <p class="p1">Lily Dean <br> Creative Researcher <br> Miskatonic University</p>
+
+    <p class="p2">Violet Porter <br> Senior Manager <br> MindBodyBalance. Inc.</p>
+
+    <p class="p3">Eliana Correa <br> Developer <br> Ipsum Facto. LLC</p>
+
+    <h1>Our Speakers</h1>
+
+    <p class="p4">Hear from the people who made the magic happen.</p>
+</body>
+</html>
